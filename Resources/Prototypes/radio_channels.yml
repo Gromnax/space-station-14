@@ -34,6 +34,13 @@
   frequency: 1355
   color: "#57b8f0"
 
+  type: radioChannel
+  id: Mush
+  name: chat-radio-mush
+  keycode: 'w'
+  color: "#fb406a"
+  longRange: true
+
 - type: radioChannel
   id: Science
   name: chat-radio-science

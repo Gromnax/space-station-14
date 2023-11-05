@@ -25,11 +25,13 @@
 
 # As with airloss, most medicine and damage effects should probably modify either poison or radiation.
 # Though there are probably some radioactive poisons.
+# Mush goes there, since it can be considered a toxin.
 - type: damageGroup
   id: Toxin
   damageTypes:
     - Poison
     - Radiation
+    - Mush
 
 - type: damageGroup
   id: Genetic

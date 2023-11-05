@@ -1,0 +1,13 @@
+- type: antag
+  id: AlphaMush
+  name: roles-antag-alpha-mush-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-alpha-mush-objective
+
+- type: antag
+  id: Mush
+  name: roles-antag-mush-name
+  antagonist: true
+  setPreference: false
+  objective: roles-antag-mush-objective
