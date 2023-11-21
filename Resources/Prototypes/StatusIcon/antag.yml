@@ -1,4 +1,11 @@
 - type: statusIcon
+  id: MushFaction
+  priority: 11
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Mush
+
+- type: statusIcon
   id: ZombieFaction
   priority: 11
   icon:

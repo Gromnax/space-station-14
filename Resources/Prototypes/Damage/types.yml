@@ -65,6 +65,12 @@
   armorCoefficientPrice: 2
   armorFlatPrice: 10
 
+  # Mushroom infection. Inspired by poison for values, but will be counted separately. Converts the host if a threshold is met.
+  type: damageType
+  id: Mush
+  armorCoefficientPrice: 10
+  armorFlatPrice: 60
+
 # Damage represent structures internal integrity.
 # Exclusive for structures such as walls, airlocks and others.
 - type: damageType
