@@ -4,6 +4,8 @@
   name: bucket
   description: It's a boring old bucket.
   components:
+  - type: Spore
+    sporeAmount: 2
   - type: Drink
     solution: bucket
     ignoreEmpty: true

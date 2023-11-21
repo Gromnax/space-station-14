@@ -224,6 +224,8 @@ public abstract partial class SharedHandsSystem : EntitySystem
         }
 
         _adminLogger.Add(LogType.Pickup, LogImpact.Low, $"{ToPrettyString(uid):user} picked up {ToPrettyString(entity):entity}");
+        RaiseLocalEvent(entity, new AfterPickupEvent(uid, entity));
+        RaiseLocalEvent(entity, new AfterGettingPickedupEvent(uid, entity));
 
         Dirty(uid, hands);
 
