@@ -34,7 +34,7 @@
   frequency: 1355
   color: "#57b8f0"
 
-  type: radioChannel
+- type: radioChannel
   id: Mush
   name: chat-radio-mush
   keycode: 'w'
