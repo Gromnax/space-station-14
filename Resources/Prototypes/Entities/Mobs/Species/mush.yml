@@ -230,3 +230,8 @@
   parent: MobMush
   id: MobMushAlpha
   name: AlphaMush
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobMushDummy
+  noSpawn: true
